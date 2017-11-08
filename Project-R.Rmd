@@ -1,7 +1,7 @@
 Red Wine Quality by Pablo Rivero
 ========================================================
 
-#INTRODUCTION#
+# INTRODUCTION
  Here I explore and analyze a data set that contains contains 1,599 red wines
 with 11 variables on the chemical properties of the wine: "fixed.acidity",
 "volatile.acidity", "citric.acid","residual.sugar", "chlorides",
