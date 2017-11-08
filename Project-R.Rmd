@@ -189,7 +189,7 @@ Normal distributions: density, pH, and vlatile.acidity
 Negative: sugar, total SO2, alcohol and sulphates
 
 ### Did you perform any operations on the data to tidy, adjust, or change the 
-###form of the data? If so, why did you do this?
+### form of the data? If so, why did you do this?
 
 Yes. I created reds_short subset data to explore different bivariate plots and 
 correlations with less amount of variables (next section)
@@ -327,7 +327,6 @@ range of quality, there are not below 10% in the high quality level.
 
 # Bivariate Analysis
 
-
 ### Talk about some of the relationships you observed in this part of the \
 investigation. How did the feature(s) of interest vary with other features in \
 the dataset?
@@ -340,7 +339,7 @@ I found that the degree of alcohol increases with the quality of wine.
 
 
 ### Did you observe any interesting relationships between the other features \
-(not the main feature(s) of interest)?
+### (not the main feature(s) of interest)?
 
 1: There is a good correlation (0.668) between fixed acidity and density. 
 
@@ -365,7 +364,6 @@ ggplot(aes(x=fixed.acidity,y=density,color=pH),data=reds)+
   geom_smooth(method = 'lm',color='red')
 
 ```
-
 
 Good correlation between pH and fixed acidity. Where low pH correspond with 
 low fixed acidity, and when density increases, fixed acidity too, but not pH.
@@ -417,8 +415,8 @@ mtable(m1,m2,m3,m4,m5)
 
 
 ### Talk about some of the relationships you observed in this part of the \
-investigation. Were there features that strengthened each other in terms of \
-looking at your feature(s) of interest?
+### investigation. Were there features that strengthened each other in terms of \
+### looking at your feature(s) of interest?
 
 -Low fixed acidity have lower pH as we supposed
 
